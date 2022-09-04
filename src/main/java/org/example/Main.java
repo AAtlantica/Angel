@@ -10,13 +10,13 @@ public class Main {
         //--------------------------------Tipos de datos Primitivos-------------------------------------------------------
 
         //tipo de dato     nombre de la variable     operador de asignación   valor del dato
-            byte                by                          =                       3;          // -128 hasta 127
-            short               shor                        =                       3;          // -32768 hasta 32767
-            int                 in                          =                       3;          // -2147483648 a 2747483647
-            long                lon                         =                       3;          // -9223372036854775808 a 9223372036854775807
-            float               floa                        =                       3.0f;       // ± 3.4x10-38 a ± 3.4x1038
-            double              doub                        =                       3.0;        //± 1.8x10-308 a ± 1.8x10308
-            char                cha                         =                       'x';        //\u0000 a \uFFFF
+            byte                valor_byte                  =                       3;          // -128 hasta 127
+            short               valor_short                 =                       3;          // -32768 hasta 32767
+            int                 valor_int                   =                       3;          // -2147483648 a 2747483647
+            long                valor_long                  =                       3;          // -9223372036854775808 a 9223372036854775807
+            float               valor_float                 =                       3.0f;       // ± 3.4x10-38 a ± 3.4x1038
+            double              valor_double                =                       3.0;        //± 1.8x10-308 a ± 1.8x10308
+            char                valor_char                  =                       'x';        //\u0000 a \uFFFF
             boolean             verdaderOfalso              =                       false;      // true - false
             //void;
 
