@@ -82,7 +82,7 @@ public class Main {
         //--------------------------------------------Constantes en Java ----------------------------------------------
         /*En java para indicar que un tipo de dato es una constante se utiliza la palabra reservada
         *               "final"
-        * esto quiere decir que este dato no puede cambiar durante el tiempo de ejecución
+        * esto quiere decir que este dato no puede cambiar durante el tiempo de compilación
         * */
         final String saludo = "hola Angel como estas";
 
