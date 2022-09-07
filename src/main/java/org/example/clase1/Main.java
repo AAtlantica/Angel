@@ -1,12 +1,10 @@
-package org.example;
-
+package org.example.clase1;
 
 import static java.lang.Integer.*;
 
 public class Main {
 
     public static void main(String[] args) {
-
         //--------------------------------Tipos de datos Primitivos-------------------------------------------------------
 
         //tipo de dato     nombre de la variable     operador de asignación   valor del dato
@@ -43,7 +41,7 @@ public class Main {
         //2-Si el primer valor es menor: -1
         //3-Si el primer valor es mayor: 1
         System.out.println(compare(valorInteger1, valorInteger2));
-        //Compara los valores de dos objetos cumple las misma condiciones que el anterior
+        //Compara los valores de dos objetos y cumple las mismas condiciones que el anterior
         System.out.println(valorInteger1.compareTo(valorInteger2));
 
         //Compara los valores de dos objetos y devuelve un valore booleano
@@ -85,10 +83,6 @@ public class Main {
         * esto quiere decir que este dato no puede cambiar durante el tiempo de compilación
         * */
         final String saludo = "hola Angel como estas";
-
-
-
     }
-
-
 }
+
