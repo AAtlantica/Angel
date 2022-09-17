@@ -49,7 +49,7 @@ Podemos saber si un número es par si el resto de dividir el número entre 2 es 
 El operador Java que calcula el resto de la división entre dos números enteros o no es el operador %
 2. Programa que muestre si un número es múltiplo de 10.
 
-# Estructura Repetitivas
+# Estructuras Repetitivas
 #### Se trata de mostrar los números desde el 1 hasta el 100 utilizando las instrucciones repetitivas while, do while y for.
 1. Programa Java que muestre los números del 1 al 100 utilizando la instrucción while.
 2. Programa Java que muestre los números del 1 al 100 utilizando la instrucción do..while.

@@ -20,7 +20,6 @@ public class Main1 {
         String mensaje = (valor1 < resultado) ? "Es menor " : "Es mayor";
         System.out.println(mensaje);
 
-
         //Arreglos estáticos
         /*
         * Se denominan de esta forma a los arreglos cuyo espacio en memoria se determinan desde el inicio y no pueden ser modificados
@@ -36,6 +35,7 @@ public class Main1 {
         int[] segundaForma = new int[]{1,2,3};
 
         int[] terceraForma = {1,2,3};
+
 
         /*Tanto la segunda o la tercera forma parecen ser dinamicos, pero si, intentasemos agregar un dato mas, por ej:
         * en la posicion 3 de la siguiente forma terceraForma[3] = 4 no daria un error ya que no se pueden modificar los espacios
@@ -67,6 +67,7 @@ public class Main1 {
         * 3-luego de ejecutar la instrucción incrementa en uno su valor
         * Para que esta estructura pueda funcionar la condición debe ser verdadera si es falsa no ingresara al bucle y si está dentro saldría
         * del mismo.*/
+
          for(int valorInicialFor = 0; valorInicialFor < primeraFormaChar.length; valorInicialFor++){
 
             System.out.println(terceraFormaChar[valorInicialFor]);
