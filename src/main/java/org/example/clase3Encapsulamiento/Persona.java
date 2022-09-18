@@ -1,4 +1,4 @@
-package org.example.clase3;
+package org.example.clase3Encapsulamiento;
 
 
 

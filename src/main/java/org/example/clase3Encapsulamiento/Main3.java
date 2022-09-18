@@ -1,4 +1,4 @@
-package org.example.clase3;
+package org.example.clase3Encapsulamiento;
 
 public class Main3 {
     public static void main(String[] args) {

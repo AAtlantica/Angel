@@ -1,4 +1,4 @@
-package org.example.clase4;
+package org.example.clase4Herencia;
 
 public class Humano {
 

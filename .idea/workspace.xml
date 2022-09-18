@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccf6efb6-b029-4aff-aa87-35b5c98e1961" name="Changes" comment="Adding Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase3/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase3/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase4/Humano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase4/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase4/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/BaseDeDatoHija.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/BaseDeDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/herenciaclases.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ejercicios.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ejercicios.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase2/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase2/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase3/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase3Encapsulamiento/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase3/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase3Encapsulamiento/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase4/Humano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase4Herencia/Humano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase4/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase4Herencia/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase4/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase4Herencia/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,35 +49,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/francisco/Documentos/7-Clases/3-Clases Angel/wrapper/src/main/java/org/example/clase3",
+    "last_opened_file_path": "/home/francisco/Documentos/7-Clases/3-Clases Angel/wrapper/src/main/java/org/example/clase5SobrecargaMetodos",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/clase3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main4">
+  <component name="RunManager" selected="Application.org.example.clase5SobrecargaMetodos.mundo.Main">
     <configuration name="Ejercicioi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Ejercicioi" />
       <module name="wrapper" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.clase1.Main" />
-      <module name="wrapper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.clase1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +87,37 @@
       </method>
     </configuration>
     <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.clase4.Main4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.clase4Herencia.Main4" />
       <module name="wrapper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.clase4.*" />
+          <option name="PATTERN" value="org.example.clase4Herencia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.clase5SobrecargaMetodos.Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.clase5SobrecargaMetodos.Main4" />
+      <module name="wrapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.clase5SobrecargaMetodos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.clase5SobrecargaMetodos.mundo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.clase5SobrecargaMetodos.mundo.Main" />
+      <module name="wrapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.clase5SobrecargaMetodos.mundo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,10 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.clase5SobrecargaMetodos.mundo.Main" />
+        <item itemvalue="Application.org.example.clase5SobrecargaMetodos.Main4" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Ejercicioi" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662587116216</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding Project">
+      <created>1663374493206</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663374493206</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +232,62 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Adding Project" />
     <option name="LAST_COMMIT_MESSAGE" value="Adding Project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/BaseDeDatos.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/BaseDeDatos.java</url>
+          <line>11</line>
+          <properties field="codigo" class="org.example.clase5SobrecargaMetodos.mundo.BaseDeDatos" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/BaseDeDatos.java</url>
+          <line>26</line>
+          <properties class="org.example.clase5SobrecargaMetodos.mundo.BaseDeDatos" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
