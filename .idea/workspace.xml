@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf6efb6-b029-4aff-aa87-35b5c98e1961" name="Changes" comment="Adding Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/BaseDeDatoHija.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/BaseDeDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/herenciaclases.jpeg" afterDir="false" />
+    <list default="true" id="ccf6efb6-b029-4aff-aa87-35b5c98e1961" name="Changes" comment="Sobrecarga Metodos y funciones, palabra final y sobreescritura">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase6Abstraccion/Bebe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase6Abstraccion/Humano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase6Abstraccion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clase6Abstraccion/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase3/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase3Encapsulamiento/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase3/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase3Encapsulamiento/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase4/Humano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase4Herencia/Humano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase4/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase4Herencia/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clase4/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/clase4Herencia/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/francisco/Documentos/7-Clases/3-Clases Angel/wrapper/src/main/java/org/example/clase5SobrecargaMetodos",
+    "last_opened_file_path": "/home/francisco/Documentos/1-Backend/Informatorio/Apps/api-noticias",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
@@ -59,7 +54,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/clase3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.clase5SobrecargaMetodos.mundo.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Ejercicioi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Ejercicioi" />
       <module name="wrapper" />
@@ -73,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.clase2.Main1" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.clase6Abstraccion.Main" />
       <module name="wrapper" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.clase2.*" />
+          <option name="PATTERN" value="org.example.clase6Abstraccion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.clase5SobrecargaMetodos.mundo.Main" />
         <item itemvalue="Application.org.example.clase5SobrecargaMetodos.Main4" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Ejercicioi" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663374493206</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sobrecarga Metodos y funciones, palabra final y sobreescritura">
+      <created>1663461796472</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663461796472</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Adding Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Project" />
+    <MESSAGE value="Sobrecarga Metodos y funciones, palabra final y sobreescritura" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sobrecarga Metodos y funciones, palabra final y sobreescritura" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -271,6 +274,21 @@
           <line>17</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase6Abstraccion/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase6Abstraccion/Persona.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase6Abstraccion/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/clase5SobrecargaMetodos/mundo/BaseDeDatos.java</url>
           <line>11</line>
@@ -285,6 +303,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/clase6Abstraccion/Humano.java</url>
+          <line>9</line>
+          <properties class="org.example.clase6Abstraccion.Humano" method="correr">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
